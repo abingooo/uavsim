@@ -1,0 +1,24 @@
+# Large upstream source and build outputs
+PX4-Autopilot/
+
+# Runtime outputs
+logs/
+*.log
+*.ulg
+*.mjpg
+*.png
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local tool/session metadata
+.agents/
+.codex/
+.gitrepo/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
